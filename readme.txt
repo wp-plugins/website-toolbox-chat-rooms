@@ -5,7 +5,7 @@ Requires at least: 3.0.0
 Tested up to: 4.2
 Stable Tag: 1.0.0
 
-Website Toolbox is the easiest way to create a powerful Chat Room. This plugin embeds your Website with Website Toolbox Chat Room and integrates single sign on.
+Website Toolbox is the easiest way to create a powerful Chat Room. This plugin embeds your Website Toolbox Chat Room and integrates single sign on.
 
 == Description ==
 
