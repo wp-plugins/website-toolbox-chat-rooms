@@ -303,7 +303,7 @@ function wtbchatroom_options_page() {
 				$page = get_page($wtbChatRoomPageid);
 				$page->post_title = "Chat Room";
 				wp_update_post($page);
-				$page->post_content = '<iframe src="'.$wtb_chat_url.'" width="95%" height="600" scrolling="no" style="border:0px;"></iframe>';
+				$page->post_content = '<script type="text/javascript" id="embedded_chatroom" src="'.$wtb_chat_url.'/js/embed.js"></script><noscript><a href="'.$wtb_chat_url.'">Chat Room</a></noscript>';
 				wp_update_post($page);  
 				update_post_meta( $post_ID, '_wtbchatroom_redirect_active', '' );
 			} else {
